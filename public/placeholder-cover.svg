@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Placeholder cover buku">
+  <rect width="600" height="800" fill="#2b2018"/>
+  <rect x="62" y="74" width="476" height="652" rx="22" fill="#3a2a1f" stroke="#9f7751" stroke-width="3"/>
+  <path d="M154 210h292M154 260h212M154 570h292" stroke="#d4b58e" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="300" cy="404" r="82" fill="#c08b55"/>
+  <path d="M265 406h70M300 371v70" stroke="#2b2018" stroke-width="16" stroke-linecap="round"/>
+</svg>

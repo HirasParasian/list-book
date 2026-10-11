@@ -1,0 +1,87 @@
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  align-content: start;
+}
+
+.book-card {
+  position: relative;
+  min-height: 350px;
+  overflow: hidden;
+  border: 1px solid rgba(239, 231, 220, 0.12);
+  border-radius: 8px;
+  padding: 0;
+  color: #fff8ef;
+  text-align: left;
+  background: #241a13;
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.book-card:hover,
+.book-card.selected {
+  border-color: rgba(212, 154, 91, 0.78);
+  transform: translateY(-3px);
+}
+
+.book-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  background: #2c2018;
+}
+
+.book-status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 6px 9px;
+  border-radius: 999px;
+  color: #2a170d;
+  background: #f2d19d;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.book-card-body {
+  padding: 14px;
+}
+
+.book-card h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+  line-height: 1.28;
+}
+
+.book-card p,
+.empty-state {
+  color: #b9a693;
+}
+
+.book-card p {
+  margin: 0 0 14px;
+  font-size: 0.9rem;
+}
+
+.book-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #d8c5ad;
+  font-size: 0.82rem;
+}
+
+.book-meta span:last-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #f2d19d;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 28px;
+  border: 1px dashed rgba(239, 231, 220, 0.18);
+  border-radius: 8px;
+}

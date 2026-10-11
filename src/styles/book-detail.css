@@ -1,0 +1,94 @@
+.book-detail {
+  padding: 16px;
+}
+
+.book-detail > img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #2c2018;
+}
+
+.detail-heading {
+  padding: 16px 2px 4px;
+}
+
+.detail-heading span {
+  color: #c09a6c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.detail-heading h2 {
+  margin: 8px 0 6px;
+  color: #fff8ef;
+  font-size: 1.45rem;
+  line-height: 1.18;
+}
+
+.detail-heading p {
+  margin: 0;
+  color: #baa997;
+}
+
+.detail-list {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.detail-list div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(239, 231, 220, 0.1);
+}
+
+.detail-list dt {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #b9a693;
+}
+
+.detail-list dd {
+  margin: 0;
+  color: #f5dfbf;
+  text-align: right;
+}
+
+.notes-panel {
+  padding: 14px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.notes-panel h3 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+
+.notes-panel p {
+  margin: 0;
+  color: #d1c0ad;
+  line-height: 1.65;
+}
+
+.detail-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.empty-detail {
+  display: grid;
+  min-height: 220px;
+  place-items: center;
+  color: #b9a693;
+  text-align: center;
+}
